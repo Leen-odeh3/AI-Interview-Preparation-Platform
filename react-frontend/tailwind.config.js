@@ -10,7 +10,8 @@ export default {
         primary: "#747686",
         secondary: "#212126",
         textcolor:"white",
-        mainColor:"#4845D2"
+        mainColor:"#4845D2",
+        headingText:"rgb(2, 1, 90)",
       },
     },
   },
