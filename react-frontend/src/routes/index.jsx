@@ -3,6 +3,7 @@ import Login from '../component/Auth/Login'
 import Register from '../component/Auth/Register'
 import ForgotPassword from '../component/Auth/ForgotPassword'
 import Layout from '../layout/index'
+import Dash from "../component/Dashboard/Dash"
 const index = () => {
   return (
     <BrowserRouter>
@@ -11,7 +12,7 @@ const index = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-pass" element={<ForgotPassword />} />
         <Route element={<Layout />}>
-        
+        <Route path="/dashboard" element={<Dash/>} />
         </Route>  
       </Routes>
     </BrowserRouter>

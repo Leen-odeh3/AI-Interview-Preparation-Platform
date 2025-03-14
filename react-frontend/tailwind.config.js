@@ -9,7 +9,8 @@ export default {
       colors: {
         primary: "#747686",
         secondary: "#212126",
-        textcolor:"white"
+        textcolor:"white",
+        mainColor:"#4845D2"
       },
     },
   },
