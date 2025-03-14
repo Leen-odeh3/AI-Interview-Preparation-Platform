@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\bin\Debug\net8.0\InterviewPrep.Core.deps.json
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\bin\Debug\net8.0\InterviewPrep.Core.dll
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\bin\Debug\net8.0\InterviewPrep.Core.pdb
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\InterviewPrep.Core.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\InterviewPrep.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\InterviewPrep.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\InterviewPrep.Core.AssemblyInfo.cs
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\InterviewPrep.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\InterviewPrep.Core.sourcelink.json
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\InterviewPrep.Core.dll
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\refint\InterviewPrep.Core.dll
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\InterviewPrep.Core.pdb
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Core\obj\Debug\net8.0\ref\InterviewPrep.Core.dll

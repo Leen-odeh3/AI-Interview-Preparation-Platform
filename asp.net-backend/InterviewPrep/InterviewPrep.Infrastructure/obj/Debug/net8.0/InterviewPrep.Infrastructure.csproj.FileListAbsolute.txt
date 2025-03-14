@@ -1,0 +1,16 @@
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\InterviewPrep.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\InterviewPrep.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\InterviewPrep.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\InterviewPrep.Infrastructure.AssemblyInfo.cs
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\InterviewPrep.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\InterviewPrep.Infrastructure.sourcelink.json
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\bin\Debug\net8.0\InterviewPrep.Infrastructure.deps.json
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\bin\Debug\net8.0\InterviewPrep.Infrastructure.dll
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\bin\Debug\net8.0\InterviewPrep.Infrastructure.pdb
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\bin\Debug\net8.0\InterviewPrep.Core.dll
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\bin\Debug\net8.0\InterviewPrep.Core.pdb
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\InterviewPrep.Infrastructure.csproj.CopyComplete
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\InterviewPrep.Infrastructure.dll
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\refint\InterviewPrep.Infrastructure.dll
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\InterviewPrep.Infrastructure.pdb
+C:\Users\hp\Desktop\AI-Interview-Preparation-Platform\asp.net-backend\InterviewPrep\InterviewPrep.Infrastructure\obj\Debug\net8.0\ref\InterviewPrep.Infrastructure.dll

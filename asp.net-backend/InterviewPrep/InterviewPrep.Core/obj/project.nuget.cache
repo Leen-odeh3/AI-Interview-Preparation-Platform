@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "asTzZI0na8IGunsKFoPvOs4ooO1fNCy5l0ukxZMmeH9m0nSr2X70uG/qjZW31TcHlrOj7Zo8frTVVit1LvbYbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.14\\microsoft.aspnetcore.cryptography.internal.8.0.14.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.14\\microsoft.aspnetcore.cryptography.keyderivation.8.0.14.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.bcl.memory\\9.0.0\\microsoft.bcl.memory.9.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.14\\microsoft.extensions.identity.core.8.0.14.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.14\\microsoft.extensions.identity.stores.8.0.14.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.6.1\\microsoft.identitymodel.abstractions.8.6.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.6.1\\microsoft.identitymodel.jsonwebtokens.8.6.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.identitymodel.logging\\8.6.1\\microsoft.identitymodel.logging.8.6.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.6.1\\microsoft.identitymodel.tokens.8.6.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.6.1\\system.identitymodel.tokens.jwt.8.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
