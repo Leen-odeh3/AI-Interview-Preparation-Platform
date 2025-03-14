@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <header className="py-3.5 flex justify-between items-center">
       <RxHamburgerMenu
-        className="text-mainColor px-6 text-3xl cursor-pointer md:hidde"
+        className="text-mainColor px-6 text-3xl cursor-pointer md:hidden"
         onClick={() => setopen(!open)}
       />
       <h1 className=" px-6	ml-5 text-mainColor font-extrabold	leading-relaxed	text-lg	">
