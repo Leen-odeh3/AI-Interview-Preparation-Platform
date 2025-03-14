@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 namespace InterviewPrep.Core.Interfaces;
 public interface IAuthService
 {
-    Task<string> Login(Login user);
+    Task<LoginServiceResponseDto> Login(Login login);
     Task<GeneralServiceResponseDto> Register(Register user);
 
 }
