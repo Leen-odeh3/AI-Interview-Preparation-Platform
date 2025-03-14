@@ -2,3 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.icon__btn{
+  border:1px solid rgb(220, 219, 219);
+}
+.hero {
+  position: relative;
+  height: 100vh;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./assets/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.2; 
+  z-index: -1; 
+}
+
+.Main {
+  position: relative;
+  z-index: 10; 
+  background-color:white; 
+}
