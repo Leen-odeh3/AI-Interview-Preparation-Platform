@@ -14,6 +14,10 @@ const Login = () => {
     navigate('/register');
   };
 
+  const forgotPass = () => {
+    navigate('/forgot-pass');
+  };
+
   return (
     <div className="w-full h-screen flex items-center justify-center hero ">
       <div className="Main w-[90%] w-sm md:w-2/3 lg:w-[40%] p-5 flex-col flex items-center gap-3 rounded-xl shadow-slate-200 shadow-lg child">
@@ -70,13 +74,17 @@ const Login = () => {
           Login
         </button>
 
-        <p className="text-xs md:text-sm text-gray-500 text-center mb-2">
+        <p className="text-xs md:text-sm text-gray-500 text-center">
           Don't have an account? 
           <span className="text-primary">
             <button className="cursor-pointer px-2" onClick={handleClick}> Sign up</button>
           </span>
         </p>
-
+        <p className="text-xs md:text-sm text-gray-500 text-center mb-2">
+          <span className="text-primary">
+            <button className="cursor-pointer px-2" onClick={forgotPass}> forgot password?</button>
+          </span>
+        </p>
       </div>
     </div>
   );
