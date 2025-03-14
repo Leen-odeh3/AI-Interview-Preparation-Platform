@@ -2,6 +2,7 @@
 using InterviewPrep.Core.DTOs.Identity.Login;
 using InterviewPrep.Core.DTOs.Identity.Register;
 using InterviewPrep.Core.Entities;
+using InterviewPrep.Core.Exceptions;
 using InterviewPrep.Core.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using System.IdentityModel.Tokens.Jwt;
