@@ -18,7 +18,7 @@ const Login = () => {
     e.preventDefault();
     try {
       await login(email, password);
-      navigate('/protected'); 
+      navigate('/interview'); 
     } catch (error) {
       setError(error);
     }

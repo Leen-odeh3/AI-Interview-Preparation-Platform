@@ -28,7 +28,7 @@ const Navbar = () => {
             <NavLink
               onClick={() => setopen(!open)}
               className="p-2 hover:text-mainColor text-lg link font-medium text-sm"
-              to="/dashboard"
+              to="/"
               key={ele}
             >
               {ele}
@@ -38,18 +38,18 @@ const Navbar = () => {
       </nav>
 
       <div className="text-headingText px-6">
-            <button
-              className="p-2 hover:text-mainColor text-lg link font-medium text-sm"
-            onClick={()=>navigate("/register")}
-            >
-          Register 
-            </button>
-            <button
-              className="hover:text-mainColor text-lg link font-medium text-sm"
-            onClick={()=>navigate("/login")}
-            >
-        Login
-            </button>
+        <button
+          className="p-2 hover:text-mainColor text-lg link font-medium text-sm"
+          onClick={() => navigate("/register")}
+        >
+          Register
+        </button>
+        <button
+          className="hover:text-mainColor text-lg link font-medium text-sm"
+          onClick={() => navigate("/login")}
+        >
+          Login
+        </button>
       </div>
     </header>
   );
