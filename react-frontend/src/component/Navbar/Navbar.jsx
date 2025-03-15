@@ -46,7 +46,7 @@ const Navbar = () => {
             </button>
             <button
               className="hover:text-mainColor text-lg link font-medium text-sm"
-            onClick={()=>navigate("/")}
+            onClick={()=>navigate("/login")}
             >
         Login
             </button>

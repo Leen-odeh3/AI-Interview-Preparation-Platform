@@ -18,7 +18,7 @@ const Login = () => {
     e.preventDefault();
     try {
       await login(email, password);
-      navigate('/dashboard'); 
+      navigate('/protected'); 
     } catch (error) {
       setError(error);
     }

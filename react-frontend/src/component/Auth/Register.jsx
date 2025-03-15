@@ -20,7 +20,7 @@ const Register = () => {
     e.preventDefault();
     try {
       await register(email, password, firstName, lastName);
-      navigate('/');
+      navigate('/login');
       alert("register completed");
     } catch (error) {
       setError(error);
@@ -28,7 +28,7 @@ const Register = () => {
   };
 
   const handleClick = () => {
-    navigate('/');
+    navigate('/login');
   };
 
   return (

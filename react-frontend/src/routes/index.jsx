@@ -8,11 +8,11 @@ const index = () => {
   return (
     <BrowserRouter>
       <Routes> 
-          <Route index element={<Login />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-pass" element={<ForgotPassword />} />
         <Route element={<Layout />}>
-        <Route path="/dashboard" element={<MainPage/>} />
+        <Route index element={<MainPage/>} />
         </Route>  
       </Routes>
     </BrowserRouter>
