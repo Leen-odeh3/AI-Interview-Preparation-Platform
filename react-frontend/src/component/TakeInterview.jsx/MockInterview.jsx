@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const MockInterview = () => {
   const [position, setPosition] = useState('');
@@ -11,6 +12,7 @@ const MockInterview = () => {
     console.log('New Interview:', interviewData);
   };
 
+  const navigate = useNavigate();
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="w-[60%] p-6 space-y-6 rounded-lg shadow-md">
@@ -61,6 +63,7 @@ const MockInterview = () => {
             <button
               type="submit"
               className=" px-4 py-2 text-mainColor rounded"
+              onClick={()=>navigate("/interview")}
             >
               Cancel
             </button>  
