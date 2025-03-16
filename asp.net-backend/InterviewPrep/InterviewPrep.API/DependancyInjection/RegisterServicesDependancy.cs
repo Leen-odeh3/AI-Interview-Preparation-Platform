@@ -19,6 +19,7 @@ public static class RegisterServicesDependancy
 
         service.AddScoped<ITokenService, TokenService>();
         service.AddScoped<IAuthService, AuthService>();
+        service.AddScoped<IInterviewService, InterviewService>();
 
         service.AddIdentity<User, IdentityRole>(options =>
         {

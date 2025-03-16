@@ -7,6 +7,9 @@ public class AppDbContext : IdentityDbContext<User>
 {
     public AppDbContext(DbContextOptions<AppDbContext> option):base(option)
     {
-        
+
     }
+
+    public DbSet<Interview> Interviews { get; set; }
+
 }
