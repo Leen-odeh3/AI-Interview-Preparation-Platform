@@ -1,10 +1,11 @@
-
 using InterviewPrep.API.DependancyInjection;
+using InterviewPrep.Infrastructure.Database;
+using Microsoft.EntityFrameworkCore;
 
 namespace InterviewPrep.API;
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +18,27 @@ public class Program
 
         var app = builder.Build();
 
-        if (app.Environment.IsDevelopment())
+		#region Update Database
+		using var scope = app.Services.CreateScope();
+
+		var services = scope.ServiceProvider;
+		var _context = services.GetRequiredService<AppDbContext>();
+
+		var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+
+		try
+		{
+			await _context.Database.MigrateAsync();
+		}
+		catch (Exception ex)
+		{
+			var logger = loggerFactory.CreateLogger<Program>();
+			logger.LogError(ex, "Error while updating the database");
+		}
+		#endregion
+
+
+		if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
             app.UseSwaggerUI();
