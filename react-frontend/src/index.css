@@ -49,3 +49,7 @@ body{
   object-fit: contain;
   background-size: cover; 
 }
+
+input:focus{
+  outline: none;
+}

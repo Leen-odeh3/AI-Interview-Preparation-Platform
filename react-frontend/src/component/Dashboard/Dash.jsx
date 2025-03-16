@@ -7,7 +7,7 @@ import secondhero from '../../assets/secondhero.jpg'
 
 const Dash = () => {
   return (
-    <section className='flex flex-col md:flex-row justify-center items-center w-full px-4 py-3'>
+    <section className='flex flex-col md:flex-row justify-center items-center w-full px-4'>
       <div className='w-full md:w-1/2 px-8'>
         <div className='rounded-xl bg-textcolor w-fit p-2 mb-3'>
           <p className='bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent text-base'>
@@ -17,8 +17,9 @@ const Dash = () => {
         <h1 className="font-bold text-4xl md:text-5xl mt-7 mb-7 leading-tight">
           Your Personal <span className='text-mainColor'>AI Interview</span> Coach
         </h1>
-        <p className='text-primary text-base mt-3'>
+        <p className='text-primary text-sm mt-3'>
           Double your chances of landing that job offer with our AI-powered interview prep. The No.1 AI Interview Copilot at Best Price
+        <p className='mt-6'>Practice with AI trained on real interviews by Staff Engineers at top tech companies. Get instant feedback and master trending system design topics updated bi-weekly. </p>  
         </p>
         <div className='flex flex-wrap justify-start items-center mt-7'>
           <button className='bg-mainColor rounded-xl py-3 px-6 flex justify-center items-center mr-4 text-textcolor'>
