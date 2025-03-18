@@ -264,7 +264,7 @@ namespace InterviewPrep.Infrastructure.Migrations
             modelBuilder.Entity("InterviewPrep.Core.Entities.Interview", b =>
                 {
                     b.HasOne("InterviewPrep.Core.Entities.User", "User")
-                        .WithMany()
+                        .WithMany("Interviews")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -321,6 +321,11 @@ namespace InterviewPrep.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("InterviewPrep.Core.Entities.User", b =>
+                {
+                    b.Navigation("Interviews");
                 });
 #pragma warning restore 612, 618
         }
