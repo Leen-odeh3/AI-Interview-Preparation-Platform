@@ -11,16 +11,14 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
-    if (token) {
-      setIsAuthenticated(true);
-    }
+    const token = localStorage.getItem('authToken');
+    setIsAuthenticated(!!token);
   }, []);
-
+  
   const handleLogout = () => {
-    localStorage.removeItem('token');
+    localStorage.clear();
     setIsAuthenticated(false);
-    navigate('/login');
+    navigate('/');
   };
 
   return (

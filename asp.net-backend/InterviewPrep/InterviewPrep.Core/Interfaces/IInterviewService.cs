@@ -1,5 +1,4 @@
-﻿using InterviewPrep.Core.DTOs.Interview;
-using InterviewPrep.Core.Entities;
+﻿using InterviewPrep.Core.Entities;
 
 namespace InterviewPrep.Core.Interfaces;
 public interface IInterviewService
