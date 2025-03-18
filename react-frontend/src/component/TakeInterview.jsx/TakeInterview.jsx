@@ -9,6 +9,10 @@ export default function InterviewPage() {
 
   const navigate = useNavigate();
 
+  const handleStartInterview = (interviewId) => {
+    navigate(`/interview/${interviewId}`); 
+  };
+
   useEffect(() => {
     const fetchInterviews = async () => {
       try {
@@ -54,10 +58,15 @@ export default function InterviewPage() {
           <p className="text-red-500">{error}</p>
         ) : interviews.length > 0 ? (
           interviews.map((interview) => (
-            <div key={interview.id} className="p-4 border rounded-lg shadow-sm">
-              <h2 className="text-xl font-semibold">{interview.position}</h2>
+            <div key={interview.id} className="p-4 border rounded-lg shadow-sm flex justify-between align-middle">
+              <div>  <h2 className="text-xl font-semibold">{interview.position}</h2>
               <p className="text-gray-600">Tech Stack: {interview.techStack.join(", ")}</p>
-              <p className="text-gray-600">Experience: {interview.yearsOfExperience} years</p>
+              <p className="text-gray-600">Experience: {interview.yearsOfExperience} years</p> </div>
+            <div>
+              <button   
+              // onClick={() => handleStartInterview(interview.id)}
+               className="px-4 py-2 bg-mainColor text-white rounded">Start</button>
+            </div>
             </div>
           ))
         ) : (

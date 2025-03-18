@@ -104,7 +104,7 @@ const MockInterview = () => {
               className=" px-4 py-2 bg-mainColor text-white rounded"
               disabled={loading}
             >
-              {loading ? 'Loading...' : 'Start Interview'}
+              {loading ? 'Loading...' : 'Create Interview'}
             </button>
           </div>
         </form>
