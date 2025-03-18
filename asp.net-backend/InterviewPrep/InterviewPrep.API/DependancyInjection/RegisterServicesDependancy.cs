@@ -1,11 +1,13 @@
 ﻿using InterviewPrep.Core.Entities;
 using InterviewPrep.Core.Interfaces;
+using InterviewPrep.Core.Services;
 using InterviewPrep.Infrastructure.Database;
 using InterviewPrep.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 namespace InterviewPrep.API.DependancyInjection;
@@ -13,6 +15,8 @@ public static class RegisterServicesDependancy
 {
     public static IServiceCollection addDependancy(this IServiceCollection service, IConfiguration config)
     {
+        service.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
         service.AddDbContext<AppDbContext>(options =>
            options.UseSqlServer(config.GetConnectionString("DefaultConnection"))
        );
@@ -52,6 +56,37 @@ public static class RegisterServicesDependancy
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["JWT:Key"]))
                     };
                 });
+        service.AddSwaggerGen(c =>
+        {
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "InterviewPrep API", Version = "v1" });
+
+            c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+            {
+                In = ParameterLocation.Header,
+                Name = "Authorization",
+                Type = SecuritySchemeType.ApiKey,
+                BearerFormat = "JWT",
+                Scheme = "Bearer",
+                Description = "Enter your JWT token in the format: Bearer {token}"
+            });
+
+            c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] {}
+                    }
+                });
+        });
+
+        service.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
         service.AddCors(options =>
         {

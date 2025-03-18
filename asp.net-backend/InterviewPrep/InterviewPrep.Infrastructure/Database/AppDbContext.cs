@@ -9,7 +9,15 @@ public class AppDbContext : IdentityDbContext<User>
     {
 
     }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
 
+        modelBuilder.Entity<Interview>()
+            .HasOne(i => i.User)
+            .WithMany(u => u.Interviews)
+            .HasForeignKey(i => i.UserId);
+    }
     public DbSet<Interview> Interviews { get; set; }
 
 }

@@ -1,6 +1,6 @@
 import { MdAlternateEmail } from "react-icons/md";
 import { FaFingerprint, FaRegEye, FaRegEyeSlash } from "react-icons/fa";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { login } from '../../api/api';  
@@ -12,17 +12,26 @@ const Login = () => {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
 
+  useEffect(() => {
+    const token = localStorage.getItem('authToken');
+    if (token) {
+      navigate('/interview');
+    }
+  }, [navigate]);
+
   const togglePasswordView = () => setShowPassword(!showPassword);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await login(email, password);
-      navigate('/interview'); 
+      const token = await login(email, password);
+      localStorage.setItem('authToken', token);
+      window.location.reload(); 
     } catch (error) {
       setError(error);
     }
   };
+  
 
   const handleClick = () => {
     navigate('/register');
@@ -33,7 +42,7 @@ const Login = () => {
   };
 
   return (
-    <div className="w-full h-screen flex items-center justify-center hero ">
+    <div className="w-full h-screen flex items-center justify-center hero">
       <div className="Main w-[90%] sm:w-2/3 md:w-[40%] p-5 flex-col flex items-center gap-3 rounded-xl shadow-slate-200 shadow-lg child">
         <h3 className="text-secondary text-base font-bold mt-5">Sign in to ai-mock-interview</h3>
         <p className=" text-primary text-sm">Welcome back! Please sign in to continue</p>

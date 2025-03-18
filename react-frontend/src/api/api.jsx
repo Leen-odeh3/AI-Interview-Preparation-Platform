@@ -5,7 +5,10 @@ const API_URL = "http://localhost:5217/api/auth";
 export const login = async (email, password) => {
   try {
     const response = await axios.post(`${API_URL}/login`, { email, password });
-    return response.data;
+    
+    const token = response.data.token;
+    
+    return token;
   } catch (error) {
     throw error.response?.data || "An error occurred during login.";
   }
