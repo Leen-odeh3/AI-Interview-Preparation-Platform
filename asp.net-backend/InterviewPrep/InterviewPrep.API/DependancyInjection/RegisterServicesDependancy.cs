@@ -24,8 +24,10 @@ public static class RegisterServicesDependancy
         service.AddScoped<ITokenService, TokenService>();
         service.AddScoped<IAuthService, AuthService>();
         service.AddScoped<IInterviewService, InterviewService>();
+		service.AddScoped<IInterviewQuestionsService, InterviewQuestionsService>();
+		service.AddHttpClient();
 
-        service.AddIdentity<User, IdentityRole>(options =>
+		service.AddIdentity<User, IdentityRole>(options =>
         {
             options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(2);
             options.Lockout.MaxFailedAccessAttempts = 3;
