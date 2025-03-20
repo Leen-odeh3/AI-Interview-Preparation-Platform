@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\InterviewPrep.Infrastructure.csproj": {}
+    "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\InterviewPrep.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj": {
+    "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj",
+        "projectUniqueName": "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj",
         "projectName": "InterviewPrep.Core",
-        "projectPath": "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\obj\\",
+        "projectPath": "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj",
+        "packagesPath": "C:\\Users\\Ahmed Alian\\.nuget\\packages\\",
+        "outputPath": "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ahmed Alian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -65,29 +70,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\InterviewPrep.Infrastructure.csproj": {
+    "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\InterviewPrep.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\InterviewPrep.Infrastructure.csproj",
+        "projectUniqueName": "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\InterviewPrep.Infrastructure.csproj",
         "projectName": "InterviewPrep.Infrastructure",
-        "projectPath": "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\InterviewPrep.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\obj\\",
+        "projectPath": "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\InterviewPrep.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Ahmed Alian\\.nuget\\packages\\",
+        "outputPath": "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ahmed Alian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -96,15 +115,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj"
+              "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj": {
+                "projectPath": "C:\\AI-Interview-Preparation-Platform\\asp.net-backend\\InterviewPrep\\InterviewPrep.Core\\InterviewPrep.Core.csproj"
               }
             }
           }
@@ -113,7 +131,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -147,12 +171,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
